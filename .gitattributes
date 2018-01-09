@@ -1,0 +1,19 @@
+* text=auto !eol
+/AUTHORS -text
+/COPYING -text
+/ChangeLog -text
+/Makefile.am -text
+/NEWS -text
+/README -text
+/apertium-udm-kpv.kpv-udm.lrx -text
+/apertium-udm-kpv.kpv-udm.t1x -text
+/apertium-udm-kpv.kpv-udm.t2x -text
+/apertium-udm-kpv.kpv-udm.t3x -text
+/apertium-udm-kpv.udm-kpv.dix -text
+/apertium-udm-kpv.udm-kpv.lrx -text
+/apertium-udm-kpv.udm-kpv.t1x -text
+/apertium-udm-kpv.udm-kpv.t2x -text
+/apertium-udm-kpv.udm-kpv.t3x -text
+/autogen.sh -text
+/configure.ac -text
+/modes.xml -text
