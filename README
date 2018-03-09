@@ -2,11 +2,11 @@ Udmurt and Komi-Zyrian (`apertium-udm-kpv`)
 ===============================================================================
 
 This is an Apertium language pair for translating between Udmurt and
-kpv. What you can use this language package for:
+Komi-Zyrian. What you can use this language package for:
 
-* Translating between Udmurt and kpv
-* Morphological analysis of Udmurt and kpv
-* Part-of-speech tagging of Udmurt and kpv
+* Translating between Udmurt and Komi-Zyrian
+* Morphological analysis of Udmurt and Komi-Zyrian
+* Part-of-speech tagging of Udmurt and Komi-Zyrian
 
 For information on the latter two points, see subheading "For more
 information" below
@@ -35,7 +35,7 @@ Given the requirements being installed, you should be able to just run:
 $ ./configure
 $ make
 ```
-You can use ./autogen.sh instead of ./configure you're compiling from
+You can use `./autogen.sh` instead of `./configure` you're compiling from
 git. If you installed any prerequisite language packages using a `--prefix`
 to `./configure`, make sure to give the same `--prefix` to `./configure` here.
 
