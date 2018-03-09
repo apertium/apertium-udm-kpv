@@ -1,6 +1,4 @@
-Udmurt and kpv
-
-                            apertium-udm-kpv
+Udmurt and Komi-Zyrian (`apertium-udm-kpv`
 ===============================================================================
 
 This is an Apertium language pair for translating between Udmurt and
@@ -22,8 +20,10 @@ You will need the following software installed:
 * apertium (>= 3.3.0)
 * vislcg3 (>= 0.9.9.10297)
 * hfst (>= 3.8.2)
-* apertium-udm
-* apertium-kpv
+* giella-shared
+* giella-core
+* giella-udm
+* giella-kpv
 
 If this does not make any sense, we recommend you look at: www.apertium.org
 
@@ -31,11 +31,10 @@ Compiling
 ===============================================================================
 
 Given the requirements being installed, you should be able to just run:
-
+```
 $ ./configure
 $ make
-# make install
-
+```
 You can use ./autogen.sh instead of ./configure you're compiling from
 SVN. If you installed any prerequisite language packages using a --prefix
 to ./configure, make sure to give the same --prefix to ./configure here.
@@ -46,30 +45,34 @@ Testing
 If you are in the source directory after running make, the following
 commands should work:
 
+```
 $  echo "TODO test sentence 1" | apertium -d . udm-kpv
 TODO test translated sentence 1
+```
 
+```
 $ echo "TODO test sentence 2" | apertium -d . kpv-udm
 TODO test translated sentence 2
-
+```
 After installing somewhere in $PATH, you should be able to do e.g.
-
+```
 $  echo "TODO test sentence 1" | apertium udm-kpv
 TODO test translated sentence 1
+```
 
 Files and data
 ===============================================================================
 
-* apertium-udm-kpv.udm-kpv.dix  - Bilingual dictionary
-* apertium-udm-kpv.udm-kpv.t1x  - Chunking rules for translating into kpv
-* apertium-udm-kpv.kpv-udm.t1x  - Chunking rules for translating into Udmurt
-* apertium-udm-kpv.udm-kpv.t2x  - Interchunk rules for translating into kpv
-* apertium-udm-kpv.kpv-udm.t2x  - Interchunk rules for translating into Udmurt
-* apertium-udm-kpv.udm-kpv.t3x  - Postchunk rules for translating into kpv
-* apertium-udm-kpv.kpv-udm.t3x  - Postchunk rules for translating into Udmurt
-* apertium-udm-kpv.udm-kpv.lrx  - Lexical selection rules for translating into kpv
-* apertium-udm-kpv.kpv-udm.lrx  - Lexical selection rules for translating into Udmurt
-* modes.xml                     - Translation modes
+* `apertium-udm-kpv.udm-kpv.dix`  - Bilingual dictionary
+* `apertium-udm-kpv.udm-kpv.t1x`  - Chunking rules for translating into kpv
+* `apertium-udm-kpv.kpv-udm.t1x`  - Chunking rules for translating into Udmurt
+* `apertium-udm-kpv.udm-kpv.t2x`  - Interchunk rules for translating into kpv
+* `apertium-udm-kpv.kpv-udm.t2x`  - Interchunk rules for translating into Udmurt
+* `apertium-udm-kpv.udm-kpv.t3x`  - Postchunk rules for translating into kpv
+* `apertium-udm-kpv.kpv-udm.t3x`  - Postchunk rules for translating into Udmurt
+* `apertium-udm-kpv.udm-kpv.lrx`  - Lexical selection rules for translating into kpv
+* `apertium-udm-kpv.kpv-udm.lrx`  - Lexical selection rules for translating into Udmurt
+* `modes.xml`                     - Translation modes
 
 For more information
 ===============================================================================
