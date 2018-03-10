@@ -1,5 +1,0 @@
-
-      
-    hfst-proc --weight-classes 1 -w -e '/home/socur/Documents/kpv-udm/hfst/apertium-udm-kpv/udm-kpv.automorf.hfst' | cg-proc -n -1 -w '/home/socur/Documents/kpv-udm/hfst/apertium-udm-kpv/udm-kpv.mor.rlx.bin' 
-  
-  

@@ -1,5 +1,0 @@
-
-      
-    hfst-proc --weight-classes 1 -w -e '/home/socur/Documents/kpv-udm/hfst/apertium-udm-kpv/kpv-udm.automorf.hfst' | cg-proc -n -1 -w '/home/socur/Documents/kpv-udm/hfst/apertium-udm-kpv/kpv-udm.mor.rlx.bin' | apertium-pretransfer| lt-proc -b '/home/socur/Documents/kpv-udm/hfst/apertium-udm-kpv/kpv-udm.autobil.bin' | lrx-proc -m '/home/socur/Documents/kpv-udm/hfst/apertium-udm-kpv/kpv-udm.autolex.bin' | apertium-transfer -t -b '/home/socur/Documents/kpv-udm/hfst/apertium-udm-kpv/apertium-udm-kpv.kpv-udm.t1x'  '/home/socur/Documents/kpv-udm/hfst/apertium-udm-kpv/kpv-udm.t1x.bin' 
-  
-  

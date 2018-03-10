@@ -1,5 +1,0 @@
-
-      
-    hfst-proc --weight-classes 1 -w -e '/home/socur/Documents/kpv-udm/hfst/apertium-udm-kpv/udm-kpv.automorf.hfst' | cg-proc -n -1 -w '/home/socur/Documents/kpv-udm/hfst/apertium-udm-kpv/udm-kpv.mor.rlx.bin' | apertium-pretransfer| lt-proc -b '/home/socur/Documents/kpv-udm/hfst/apertium-udm-kpv/udm-kpv.autobil.bin' | lrx-proc -m '/home/socur/Documents/kpv-udm/hfst/apertium-udm-kpv/udm-kpv.autolex.bin' | apertium-transfer -b '/home/socur/Documents/kpv-udm/hfst/apertium-udm-kpv/apertium-udm-kpv.udm-kpv.t1x'  '/home/socur/Documents/kpv-udm/hfst/apertium-udm-kpv/udm-kpv.t1x.bin' | apertium-interchunk '/home/socur/Documents/kpv-udm/hfst/apertium-udm-kpv/apertium-udm-kpv.udm-kpv.t2x'  '/home/socur/Documents/kpv-udm/hfst/apertium-udm-kpv/udm-kpv.t2x.bin' | apertium-postchunk '/home/socur/Documents/kpv-udm/hfst/apertium-udm-kpv/apertium-udm-kpv.udm-kpv.t3x'  '/home/socur/Documents/kpv-udm/hfst/apertium-udm-kpv/udm-kpv.t3x.bin' 
-  
-  
