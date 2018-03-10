@@ -1,0 +1,5 @@
+
+      
+    hfst-proc --weight-classes 1 -w -e '/home/socur/Documents/kpv-udm/hfst/apertium-udm-kpv/kpv-udm.automorf.hfst' | cg-conv -a| vislcg3 --trace --grammar '/home/socur/Documents/kpv-udm/hfst/apertium-udm-kpv/kpv-udm.mor.rlx.bin' 
+  
+  
