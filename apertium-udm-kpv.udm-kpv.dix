@@ -94,7 +94,13 @@
 
    <section id="main" type="standard">
       <e><p><l>корка<s n="n"/></l><r>керка<s n="n"/></r></p></e>
+      <e><p><l>курег<s n="n"/></l><r>курӧг<s n="n"/></r></p></e>
+      <e><p><l>пуны<s n="n"/></l><r>пон<s n="n"/></r></p></e>
       <e><p><l>пуньы<s n="n"/></l><r>пань<s n="n"/></r></p></e>
+      <e><p><l>ӵукна<s n="n"/></l><r>асыв<s n="n"/></r></p></e>
+      <e><p><l>кулыны<s n="vblex"/></l><r>кувны<s n="vblex"/></r></p></e>
+      <e><p><l>кыльыны<s n="vblex"/></l><r>кольны<s n="vblex"/></r></p></e>
+      <e><p><l>мыныны<s n="vblex"/></l><r>мунны<s n="vblex"/></r></p></e>
 
       <e><re>[.\?;:!…¿¶]</re><p><l><s n="sent"/></l><r><s n="sent"/></r></p></e>
       <e><re>,</re>          <p><l><s n="cm"/></l>  <r><s n="cm"/></r></p></e>
