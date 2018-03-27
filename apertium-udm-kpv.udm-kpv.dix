@@ -95,6 +95,12 @@
    <section id="main" type="standard">
       <e><p><l>корка<s n="n"/></l><r>керка<s n="n"/></r></p></e>
       <e><p><l>пуньы<s n="n"/></l><r>пань<s n="n"/></r></p></e>
+      <e><p><l>тодыны<s n="vblex"/></l><r>тӧдны<s n="vblex"/></r></p></e>
+      <e><p><l>сое<s n="prn"/></l><r>сійӧ<s n="prn"/></r></p></e>
+      <e><p><l>но<s n="cnjcoo"/></l><r>и<s n="cnjcoo"/></r></p></e>
+      <e><p><l>яратыны<s n="vblex"/></l><r>радейтны<s n="vblex"/></r></p></e>      
+      <e><p><l>кызьы<s n="adv"/></l><r>кыдзи<s n="cnjsub"/></r></p></e>
+      <e><p><l>улыны<s n="vblex"/></l><r>овны<s n="vblex"/></r></p></e>
 
       <e><re>[.\?;:!…¿¶]</re><p><l><s n="sent"/></l><r><s n="sent"/></r></p></e>
       <e><re>,</re>          <p><l><s n="cm"/></l>  <r><s n="cm"/></r></p></e>
