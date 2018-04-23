@@ -30,7 +30,31 @@ If this does not make any sense, we recommend you look at: www.apertium.org
 Compiling
 ===============================================================================
 
-Given the requirements being installed, you should be able to just run:
+Compiling in the giella infrastructure: check out at
+* http://giellatekno.uit.no/doc/infra/GettingStarted.html
+
+go to ``$GTHOME/langs/udm` and set up and compile (where `$GTHOME` is the folder
+where you downloaded the giella infrastructure):
+```
+$ ./autogen.sh
+$ ./configure --with-hfst --enable-reversed-intersect --enable-apertium
+$  make
+```
+Then go to `$GHOME/langs/kpv` and issue the same 3 commands.
+
+Things are fine if you in the folder `tools/mt/apertium` (in the `udm`
+and `kpv` folders) find files ending in `.gz`, e.g. `apertium-udm.udm.RL.att.gz `
+
+Given these requirements being installed, you should be able to return to your
+apertium-udm-kpv folder and run:
+
+```
+$ ./autogen.sh --with-lang1=/path/to/$GTHOME/langs/udm/tools/mt/apertium --with-lang2=/path/to/$GTHOME/langs/kpv/tools/mt/apertium
+make
+```
+
+Eventually instead also (??)
+
 ```
 $ ./configure
 $ make
@@ -46,9 +70,15 @@ If you are in the source directory after running `make`, the following
 commands should work:
 
 ```
-$  echo "TODO test sentence 1" | apertium -d . udm-kpv
-TODO test translated sentence 1
+$  echo "но" | apertium -d . udm-kpv
 ```
+If everything works, the answer should be
+
+```
+и
+```
+
+Some more advanced examples:
 
 ```
 $ echo "TODO test sentence 2" | apertium -d . kpv-udm
@@ -80,6 +110,8 @@ For more information
 * http://wiki.apertium.org/wiki/Installation
 * http://wiki.apertium.org/wiki/apertium-udm-kpv
 * http://wiki.apertium.org/wiki/Using_an_lttoolbox_dictionary
+* http://giellatekno.uit.no/doc/lang/kom/index.html
+* http://giellatekno.uit.no/doc/lang/udm/index.html
 
 Help and support
 ===============================================================================
