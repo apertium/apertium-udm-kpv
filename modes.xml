@@ -1,192 +1,219 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <modes>
   <!-- udm→udm direction: -->
-  <mode name="udm-kpv" install="yes">    
-    <pipeline>      
-      <program name="hfst-proc --weight-classes 1 -w -e"><file name="udm-kpv.automorf.hfst"/></program>      
-      <program name="cg-proc -n -1 -w"><file name="udm-kpv.mor.rlx.bin"/></program>      
-      <program name="apertium-pretransfer"/>      
-      <program name="lt-proc -b"><file name="udm-kpv.autobil.bin"/></program>      
-      <program name="lrx-proc -m"><file name="udm-kpv.autolex.bin"/></program>      
-      <program name="apertium-transfer -b"><file name="apertium-udm-kpv.udm-kpv.t1x"/><file name="udm-kpv.t1x.bin"/></program>      
-      <program name="apertium-interchunk"><file name="apertium-udm-kpv.udm-kpv.t2x"/><file name="udm-kpv.t2x.bin"/></program>      
-      <program name="apertium-postchunk"><file name="apertium-udm-kpv.udm-kpv.t3x"/><file name="udm-kpv.t3x.bin"/></program>      
+  <mode name="udm-kpv" install="yes">
+    <pipeline>
+      <program name="hfst-proc --weight-classes 1 -w -e"><file name="udm-kpv.automorf.hfst"/></program>
+      <program name="cg-proc -n -1 -w"><file name="udm-kpv.mor.rlx.bin"/></program>
+      <program name="apertium-pretransfer"/>
+      <program name="lt-proc -b"><file name="udm-kpv.autobil.bin"/></program>
+      <program name="lrx-proc -m"><file name="udm-kpv.autolex.bin"/></program>
+      <program name="apertium-transfer -b"><file name="apertium-udm-kpv.udm-kpv.t1x"/><file name="udm-kpv.t1x.bin"/></program>
+      <program name="apertium-interchunk"><file name="apertium-udm-kpv.udm-kpv.t2x"/><file name="udm-kpv.t2x.bin"/></program>
+      <program name="apertium-postchunk"><file name="apertium-udm-kpv.udm-kpv.t3x"/><file name="udm-kpv.t3x.bin"/></program>
       <program name="hfst-proc --weight-classes 1 $1"><file name="udm-kpv.autogen.hfst"/></program>
     </pipeline>
   </mode>
-  <mode name="udm-kpv-morph" install="no">    
-    <pipeline>      
+  <mode name="udm-kpv-morph" install="no">
+    <pipeline>
       <program name="hfst-proc --weight-classes 1 -w -e"><file name="udm-kpv.automorf.hfst"/></program>
     </pipeline>
   </mode>
-  <mode name="udm-kpv-disam" install="no">    
-    <pipeline>      
-      <program name="hfst-proc --weight-classes 1 -w -e"><file name="udm-kpv.automorf.hfst"/></program>      
-      <program name="cg-conv -a"/>      
+  <mode name="udm-kpv-disam" install="no">
+    <pipeline>
+      <program name="hfst-proc --weight-classes 1 -w -e"><file name="udm-kpv.automorf.hfst"/></program>
+      <program name="cg-conv -a"/>
       <program name="vislcg3 --trace --grammar"><file name="udm-kpv.mor.rlx.bin"/></program>
     </pipeline>
   </mode>
-  <mode name="udm-kpv-tagger" install="no">    
-    <pipeline>      
-      <program name="hfst-proc --weight-classes 1 -w -e"><file name="udm-kpv.automorf.hfst"/></program>      
-      <program name="cg-proc -n -1 -w"><file name="udm-kpv.mor.rlx.bin"/></program>      
+  <mode name="udm-kpv-tagger" install="no">
+    <pipeline>
+      <program name="hfst-proc --weight-classes 1 -w -e"><file name="udm-kpv.automorf.hfst"/></program>
+      <program name="cg-proc -n -1 -w"><file name="udm-kpv.mor.rlx.bin"/></program>
     </pipeline>
   </mode>
-  <mode name="udm-kpv-biltrans" install="no">    
-    <pipeline>      
-      <program name="hfst-proc --weight-classes 1 -w -e"><file name="udm-kpv.automorf.hfst"/></program>      
-      <program name="cg-proc -n -1 -w"><file name="udm-kpv.mor.rlx.bin"/></program>      
-      <program name="apertium-pretransfer"/>      
+  <mode name="udm-kpv-biltrans" install="no">
+    <pipeline>
+      <program name="hfst-proc --weight-classes 1 -w -e"><file name="udm-kpv.automorf.hfst"/></program>
+      <program name="cg-proc -n -1 -w"><file name="udm-kpv.mor.rlx.bin"/></program>
+      <program name="apertium-pretransfer"/>
       <program name="lt-proc -b"><file name="udm-kpv.autobil.bin"/></program>
     </pipeline>
   </mode>
-  <mode name="udm-kpv-lex" install="no">    
-    <pipeline>      
-      <program name="hfst-proc --weight-classes 1 -w -e"><file name="udm-kpv.automorf.hfst"/></program>      
-      <program name="cg-proc -n -1 -w"><file name="udm-kpv.mor.rlx.bin"/></program>      
-      <program name="apertium-pretransfer"/>      
-      <program name="lt-proc -b"><file name="udm-kpv.autobil.bin"/></program>      
+  <mode name="udm-kpv-lex" install="no">
+    <pipeline>
+      <program name="hfst-proc --weight-classes 1 -w -e"><file name="udm-kpv.automorf.hfst"/></program>
+      <program name="cg-proc -n -1 -w"><file name="udm-kpv.mor.rlx.bin"/></program>
+      <program name="apertium-pretransfer"/>
+      <program name="lt-proc -b"><file name="udm-kpv.autobil.bin"/></program>
       <program name="lrx-proc -m -t"><file name="udm-kpv.autolex.bin"/></program>
     </pipeline>
   </mode>
-  <mode name="udm-kpv-chunker" install="no">    
-    <pipeline>      
-      <program name="hfst-proc --weight-classes 1 -w -e"><file name="udm-kpv.automorf.hfst"/></program>      
-      <program name="cg-proc -n -1 -w"><file name="udm-kpv.mor.rlx.bin"/></program>      
-      <program name="apertium-pretransfer"/>      
-      <program name="lt-proc -b"><file name="udm-kpv.autobil.bin"/></program>      
-      <program name="lrx-proc -m"><file name="udm-kpv.autolex.bin"/></program>      
+  <mode name="udm-kpv-chunker" install="no">
+    <pipeline>
+      <program name="hfst-proc --weight-classes 1 -w -e"><file name="udm-kpv.automorf.hfst"/></program>
+      <program name="cg-proc -n -1 -w"><file name="udm-kpv.mor.rlx.bin"/></program>
+      <program name="apertium-pretransfer"/>
+      <program name="lt-proc -b"><file name="udm-kpv.autobil.bin"/></program>
+      <program name="lrx-proc -m"><file name="udm-kpv.autolex.bin"/></program>
       <program name="apertium-transfer -t -b"><file name="apertium-udm-kpv.udm-kpv.t1x"/><file name="udm-kpv.t1x.bin"/></program>
     </pipeline>
   </mode>
-  <mode name="udm-kpv-interchunk1" install="no">    
-    <pipeline>      
-      <program name="hfst-proc --weight-classes 1 -w -e"><file name="udm-kpv.automorf.hfst"/></program>      
-      <program name="cg-proc -n -1 -w"><file name="udm-kpv.mor.rlx.bin"/></program>      
-      <program name="apertium-pretransfer"/>      
-      <program name="lt-proc -b"><file name="udm-kpv.autobil.bin"/></program>      
-      <program name="lrx-proc -m"><file name="udm-kpv.autolex.bin"/></program>      
-      <program name="apertium-transfer -b"><file name="apertium-udm-kpv.udm-kpv.t1x"/><file name="udm-kpv.t1x.bin"/></program>      
+  <mode name="udm-kpv-interchunk1" install="no">
+    <pipeline>
+      <program name="hfst-proc --weight-classes 1 -w -e"><file name="udm-kpv.automorf.hfst"/></program>
+      <program name="cg-proc -n -1 -w"><file name="udm-kpv.mor.rlx.bin"/></program>
+      <program name="apertium-pretransfer"/>
+      <program name="lt-proc -b"><file name="udm-kpv.autobil.bin"/></program>
+      <program name="lrx-proc -m"><file name="udm-kpv.autolex.bin"/></program>
+      <program name="apertium-transfer -b"><file name="apertium-udm-kpv.udm-kpv.t1x"/><file name="udm-kpv.t1x.bin"/></program>
       <program name="apertium-interchunk -t"><file name="apertium-udm-kpv.udm-kpv.t2x"/><file name="udm-kpv.t2x.bin"/></program>
     </pipeline>
   </mode>
-  <mode name="udm-kpv-postchunk" install="no">    
-    <pipeline>      
-      <program name="hfst-proc --weight-classes 1 -w -e"><file name="udm-kpv.automorf.hfst"/></program>      
-      <program name="cg-proc -n -1 -w"><file name="udm-kpv.mor.rlx.bin"/></program>      
-      <program name="apertium-pretransfer"/>      
-      <program name="lt-proc -b"><file name="udm-kpv.autobil.bin"/></program>      
-      <program name="lrx-proc -m"><file name="udm-kpv.autolex.bin"/></program>      
-      <program name="apertium-transfer -b"><file name="apertium-udm-kpv.udm-kpv.t1x"/><file name="udm-kpv.t1x.bin"/></program>      
-      <program name="apertium-interchunk"><file name="apertium-udm-kpv.udm-kpv.t2x"/><file name="udm-kpv.t2x.bin"/></program>      
+  <mode name="udm-kpv-postchunk" install="no">
+    <pipeline>
+      <program name="hfst-proc --weight-classes 1 -w -e"><file name="udm-kpv.automorf.hfst"/></program>
+      <program name="cg-proc -n -1 -w"><file name="udm-kpv.mor.rlx.bin"/></program>
+      <program name="apertium-pretransfer"/>
+      <program name="lt-proc -b"><file name="udm-kpv.autobil.bin"/></program>
+      <program name="lrx-proc -m"><file name="udm-kpv.autolex.bin"/></program>
+      <program name="apertium-transfer -b"><file name="apertium-udm-kpv.udm-kpv.t1x"/><file name="udm-kpv.t1x.bin"/></program>
+      <program name="apertium-interchunk"><file name="apertium-udm-kpv.udm-kpv.t2x"/><file name="udm-kpv.t2x.bin"/></program>
       <program name="apertium-postchunk"><file name="apertium-udm-kpv.udm-kpv.t3x"/><file name="udm-kpv.t3x.bin"/></program>
     </pipeline>
   </mode>
-  <mode name="udm-kpv-dgen">    
-    <pipeline>      
-      <program name="hfst-proc --weight-classes 1 -w -e"><file name="udm-kpv.automorf.hfst"/></program>      
-      <program name="cg-proc -n -1 -w"><file name="udm-kpv.mor.rlx.bin"/></program>      
-      <program name="apertium-pretransfer"/>      
-      <program name="lt-proc -b"><file name="udm-kpv.autobil.bin"/></program>      
-      <program name="lrx-proc -m"><file name="udm-kpv.autolex.bin"/></program>      
-      <program name="apertium-transfer -b"><file name="apertium-udm-kpv.udm-kpv.t1x"/><file name="udm-kpv.t1x.bin"/></program>      
-      <program name="apertium-interchunk"><file name="apertium-udm-kpv.udm-kpv.t2x"/><file name="udm-kpv.t2x.bin"/></program>      
-      <program name="apertium-postchunk"><file name="apertium-udm-kpv.udm-kpv.t3x"/><file name="udm-kpv.t3x.bin"/></program>      
+  <mode name="udm-kpv-dgen">
+    <pipeline>
+      <program name="hfst-proc --weight-classes 1 -w -e"><file name="udm-kpv.automorf.hfst"/></program>
+      <program name="cg-proc -n -1 -w"><file name="udm-kpv.mor.rlx.bin"/></program>
+      <program name="apertium-pretransfer"/>
+      <program name="lt-proc -b"><file name="udm-kpv.autobil.bin"/></program>
+      <program name="lrx-proc -m"><file name="udm-kpv.autolex.bin"/></program>
+      <program name="apertium-transfer -b"><file name="apertium-udm-kpv.udm-kpv.t1x"/><file name="udm-kpv.t1x.bin"/></program>
+      <program name="apertium-interchunk"><file name="apertium-udm-kpv.udm-kpv.t2x"/><file name="udm-kpv.t2x.bin"/></program>
+      <program name="apertium-postchunk"><file name="apertium-udm-kpv.udm-kpv.t3x"/><file name="udm-kpv.t3x.bin"/></program>
+      <program name="hfst-proc --weight-classes 1 -d"><file name="udm-kpv.autogen.hfst"/></program>
+    </pipeline>
+  </mode>
+  <mode name="udm-kpv-debug">
+    <pipeline>
+      <program name="hfst-proc --weight-classes 1 -w -e"><file name="udm-kpv.automorf-untrimmed.hfst"/></program>
+      <program name="cg-proc -n -1 -w"><file name="udm-kpv.mor.rlx.bin"/></program>
+      <program name="apertium-pretransfer"/>
+      <program name="lt-proc -b"><file name="udm-kpv.autobil.bin"/></program>
+      <program name="lrx-proc -m"><file name="udm-kpv.autolex.bin"/></program>
+      <program name="apertium-transfer -b"><file name="apertium-udm-kpv.udm-kpv.t1x"/><file name="udm-kpv.t1x.bin"/></program>
+      <program name="apertium-interchunk"><file name="apertium-udm-kpv.udm-kpv.t2x"/><file name="udm-kpv.t2x.bin"/></program>
+      <program name="apertium-postchunk"><file name="apertium-udm-kpv.udm-kpv.t3x"/><file name="udm-kpv.t3x.bin"/></program>
       <program name="hfst-proc --weight-classes 1 -d"><file name="udm-kpv.autogen.hfst"/></program>
     </pipeline>
   </mode>
   <!-- udm→udm direction: -->
-<mode name="kpv-udm" install="yes">    
-    <pipeline>      
-      <program name="hfst-proc --weight-classes 1 -w -e"><file name="kpv-udm.automorf.hfst"/></program>      
-      <program name="cg-proc -w -1 -n"><file name="kpv-udm.mor.rlx.bin"/></program>      
-      <program name="apertium-pretransfer"/>      
-      <program name="lt-proc -b"><file name="kpv-udm.autobil.bin"/></program>      
-      <program name="lrx-proc -m"><file name="kpv-udm.autolex.bin"/></program>      
-      <program name="apertium-transfer -b"><file name="apertium-udm-kpv.kpv-udm.t1x"/><file name="kpv-udm.t1x.bin"/></program>      
-      <program name="apertium-interchunk"><file name="apertium-udm-kpv.kpv-udm.t2x"/><file name="kpv-udm.t2x.bin"/></program>      
-      <program name="apertium-postchunk"><file name="apertium-udm-kpv.kpv-udm.t3x"/><file name="kpv-udm.t3x.bin"/></program>      
+<mode name="kpv-udm" install="yes">
+    <pipeline>
+      <program name="hfst-proc --weight-classes 1 -w -e"><file name="kpv-udm.automorf.hfst"/></program>
+      <program name="cg-proc -w -1 -n"><file name="kpv-udm.mor.rlx.bin"/></program>
+      <program name="apertium-pretransfer"/>
+      <program name="lt-proc -b"><file name="kpv-udm.autobil.bin"/></program>
+      <program name="lrx-proc -m"><file name="kpv-udm.autolex.bin"/></program>
+      <program name="apertium-transfer -b"><file name="apertium-udm-kpv.kpv-udm.t1x"/><file name="kpv-udm.t1x.bin"/></program>
+      <program name="apertium-interchunk"><file name="apertium-udm-kpv.kpv-udm.t2x"/><file name="kpv-udm.t2x.bin"/></program>
+      <program name="apertium-postchunk"><file name="apertium-udm-kpv.kpv-udm.t3x"/><file name="kpv-udm.t3x.bin"/></program>
       <program name="hfst-proc --weight-classes 1 $1"><file name="kpv-udm.autogen.hfst"/></program>
     </pipeline>
   </mode>
-  <mode name="kpv-udm-morph" install="no">    
-    <pipeline>      
+  <mode name="kpv-udm-morph" install="no">
+    <pipeline>
       <program name="hfst-proc --weight-classes 1 -w -e"><file name="kpv-udm.automorf.hfst"/></program>
     </pipeline>
   </mode>
-  <mode name="kpv-udm-disam" install="no">    
-    <pipeline>      
-      <program name="hfst-proc --weight-classes 1 -w -e"><file name="kpv-udm.automorf.hfst"/></program>      
-      <program name="cg-conv -a"/>      
+  <mode name="kpv-udm-disam" install="no">
+    <pipeline>
+      <program name="hfst-proc --weight-classes 1 -w -e"><file name="kpv-udm.automorf.hfst"/></program>
+      <program name="cg-conv -a"/>
       <program name="vislcg3 --trace --grammar"><file name="kpv-udm.mor.rlx.bin"/></program>
     </pipeline>
   </mode>
-  <mode name="kpv-udm-tagger" install="no">    
-    <pipeline>      
-      <program name="hfst-proc --weight-classes 1 -w -e"><file name="kpv-udm.automorf.hfst"/></program>      
-      <program name="cg-proc -n -1 -w"><file name="kpv-udm.mor.rlx.bin"/></program>      
+  <mode name="kpv-udm-tagger" install="no">
+    <pipeline>
+      <program name="hfst-proc --weight-classes 1 -w -e"><file name="kpv-udm.automorf.hfst"/></program>
+      <program name="cg-proc -n -1 -w"><file name="kpv-udm.mor.rlx.bin"/></program>
     </pipeline>
   </mode>
-  <mode name="kpv-udm-biltrans" install="no">    
-    <pipeline>      
-      <program name="hfst-proc --weight-classes 1 -w -e"><file name="kpv-udm.automorf.hfst"/></program>      
-      <program name="cg-proc -n -1 -w"><file name="kpv-udm.mor.rlx.bin"/></program>      
-      <program name="apertium-pretransfer"/>      
+  <mode name="kpv-udm-biltrans" install="no">
+    <pipeline>
+      <program name="hfst-proc --weight-classes 1 -w -e"><file name="kpv-udm.automorf.hfst"/></program>
+      <program name="cg-proc -n -1 -w"><file name="kpv-udm.mor.rlx.bin"/></program>
+      <program name="apertium-pretransfer"/>
       <program name="lt-proc -b"><file name="kpv-udm.autobil.bin"/></program>
     </pipeline>
   </mode>
-  <mode name="kpv-udm-lex" install="no">    
-    <pipeline>      
-      <program name="hfst-proc --weight-classes 1 -w -e"><file name="kpv-udm.automorf.hfst"/></program>      
-      <program name="cg-proc -n -1 -w"><file name="kpv-udm.mor.rlx.bin"/></program>      
-      <program name="apertium-pretransfer"/>      
-      <program name="lt-proc -b"><file name="kpv-udm.autobil.bin"/></program>      
+  <mode name="kpv-udm-lex" install="no">
+    <pipeline>
+      <program name="hfst-proc --weight-classes 1 -w -e"><file name="kpv-udm.automorf.hfst"/></program>
+      <program name="cg-proc -n -1 -w"><file name="kpv-udm.mor.rlx.bin"/></program>
+      <program name="apertium-pretransfer"/>
+      <program name="lt-proc -b"><file name="kpv-udm.autobil.bin"/></program>
       <program name="lrx-proc -m -t"><file name="kpv-udm.autolex.bin"/></program>
     </pipeline>
   </mode>
-  <mode name="kpv-udm-chunker" install="no">    
-    <pipeline>      
-      <program name="hfst-proc --weight-classes 1 -w -e"><file name="kpv-udm.automorf.hfst"/></program>      
-      <program name="cg-proc -n -1 -w"><file name="kpv-udm.mor.rlx.bin"/></program>      
-      <program name="apertium-pretransfer"/>      
-      <program name="lt-proc -b"><file name="kpv-udm.autobil.bin"/></program>      
-      <program name="lrx-proc -m"><file name="kpv-udm.autolex.bin"/></program>      
+  <mode name="kpv-udm-chunker" install="no">
+    <pipeline>
+      <program name="hfst-proc --weight-classes 1 -w -e"><file name="kpv-udm.automorf.hfst"/></program>
+      <program name="cg-proc -n -1 -w"><file name="kpv-udm.mor.rlx.bin"/></program>
+      <program name="apertium-pretransfer"/>
+      <program name="lt-proc -b"><file name="kpv-udm.autobil.bin"/></program>
+      <program name="lrx-proc -m"><file name="kpv-udm.autolex.bin"/></program>
       <program name="apertium-transfer -t -b"><file name="apertium-udm-kpv.kpv-udm.t1x"/><file name="kpv-udm.t1x.bin"/></program>
     </pipeline>
   </mode>
-  <mode name="kpv-udm-interchunk" install="no">    
-    <pipeline>      
-      <program name="hfst-proc --weight-classes 1 -w -e"><file name="kpv-udm.automorf.hfst"/></program>      
-      <program name="cg-proc -n -1 -w"><file name="kpv-udm.mor.rlx.bin"/></program>      
-      <program name="apertium-pretransfer"/>      
-      <program name="lt-proc -b"><file name="kpv-udm.autobil.bin"/></program>      
-      <program name="lrx-proc -m"><file name="kpv-udm.autolex.bin"/></program>      
-      <program name="apertium-transfer -b"><file name="apertium-udm-kpv.kpv-udm.t1x"/><file name="kpv-udm.t1x.bin"/></program>      
-      <program name="apertium-interchunk"><file name="apertium-udm-kpv.kpv-udm.t2x"/><file name="kpv-udm.t2x.bin"/></program>      
+  <mode name="kpv-udm-interchunk" install="no">
+    <pipeline>
+      <program name="hfst-proc --weight-classes 1 -w -e"><file name="kpv-udm.automorf.hfst"/></program>
+      <program name="cg-proc -n -1 -w"><file name="kpv-udm.mor.rlx.bin"/></program>
+      <program name="apertium-pretransfer"/>
+      <program name="lt-proc -b"><file name="kpv-udm.autobil.bin"/></program>
+      <program name="lrx-proc -m"><file name="kpv-udm.autolex.bin"/></program>
+      <program name="apertium-transfer -b"><file name="apertium-udm-kpv.kpv-udm.t1x"/><file name="kpv-udm.t1x.bin"/></program>
+      <program name="apertium-interchunk"><file name="apertium-udm-kpv.kpv-udm.t2x"/><file name="kpv-udm.t2x.bin"/></program>
     </pipeline>
   </mode>
-  <mode name="kpv-udm-postchunk" install="no">    
-    <pipeline>      
-      <program name="hfst-proc --weight-classes 1 -w -e"><file name="kpv-udm.automorf.hfst"/></program>      
-      <program name="cg-proc -n -1 -w"><file name="kpv-udm.mor.rlx.bin"/></program>      
-      <program name="apertium-pretransfer"/>      
-      <program name="lt-proc -b"><file name="kpv-udm.autobil.bin"/></program>      
-      <program name="lrx-proc -m"><file name="kpv-udm.autolex.bin"/></program>      
-      <program name="apertium-transfer -b"><file name="apertium-udm-kpv.kpv-udm.t1x"/><file name="kpv-udm.t1x.bin"/></program>      
-      <program name="apertium-interchunk"><file name="apertium-udm-kpv.kpv-udm.t2x"/><file name="kpv-udm.t2x.bin"/></program>      
+  <mode name="kpv-udm-postchunk" install="no">
+    <pipeline>
+      <program name="hfst-proc --weight-classes 1 -w -e"><file name="kpv-udm.automorf.hfst"/></program>
+      <program name="cg-proc -n -1 -w"><file name="kpv-udm.mor.rlx.bin"/></program>
+      <program name="apertium-pretransfer"/>
+      <program name="lt-proc -b"><file name="kpv-udm.autobil.bin"/></program>
+      <program name="lrx-proc -m"><file name="kpv-udm.autolex.bin"/></program>
+      <program name="apertium-transfer -b"><file name="apertium-udm-kpv.kpv-udm.t1x"/><file name="kpv-udm.t1x.bin"/></program>
+      <program name="apertium-interchunk"><file name="apertium-udm-kpv.kpv-udm.t2x"/><file name="kpv-udm.t2x.bin"/></program>
       <program name="apertium-postchunk"><file name="apertium-udm-kpv.kpv-udm.t3x"/><file name="kpv-udm.t3x.bin"/></program>
     </pipeline>
   </mode>
-  <mode name="kpv-udm-dgen">    
-    <pipeline>      
-      <program name="hfst-proc --weight-classes 1 -w -e"><file name="kpv-udm.automorf.hfst"/></program>      
-      <program name="cg-proc -n -1 -w"><file name="kpv-udm.mor.rlx.bin"/></program>      
-      <program name="apertium-pretransfer"/>      
-      <program name="lt-proc -b"><file name="kpv-udm.autobil.bin"/></program>      
-      <program name="lrx-proc -m"><file name="kpv-udm.autolex.bin"/></program>      
-      <program name="apertium-transfer -b"><file name="apertium-udm-kpv.kpv-udm.t1x"/><file name="kpv-udm.t1x.bin"/></program>      
-      <program name="apertium-interchunk"><file name="apertium-udm-kpv.kpv-udm.t2x"/><file name="kpv-udm.t2x.bin"/></program>      
-      <program name="apertium-postchunk"><file name="apertium-udm-kpv.kpv-udm.t3x"/><file name="kpv-udm.t3x.bin"/></program>      
+  <mode name="kpv-udm-dgen">
+    <pipeline>
+      <program name="hfst-proc --weight-classes 1 -w -e"><file name="kpv-udm.automorf.hfst"/></program>
+      <program name="cg-proc -n -1 -w"><file name="kpv-udm.mor.rlx.bin"/></program>
+      <program name="apertium-pretransfer"/>
+      <program name="lt-proc -b"><file name="kpv-udm.autobil.bin"/></program>
+      <program name="lrx-proc -m"><file name="kpv-udm.autolex.bin"/></program>
+      <program name="apertium-transfer -b"><file name="apertium-udm-kpv.kpv-udm.t1x"/><file name="kpv-udm.t1x.bin"/></program>
+      <program name="apertium-interchunk"><file name="apertium-udm-kpv.kpv-udm.t2x"/><file name="kpv-udm.t2x.bin"/></program>
+      <program name="apertium-postchunk"><file name="apertium-udm-kpv.kpv-udm.t3x"/><file name="kpv-udm.t3x.bin"/></program>
+      <program name="hfst-proc --weight-classes 1 -d"><file name="kpv-udm.autogen.hfst"/></program>
+    </pipeline>
+  </mode>
+  <mode name="kpv-udm-debug">
+    <pipeline>
+      <program name="hfst-proc --weight-classes 1 -w -e"><file name="kpv-udm.automorf-untrimmed.hfst"/></program>
+      <program name="sed -e 's:/&lt;:/:g'"/>
+      <program name="cg-proc -n -1 -w"><file name="kpv-udm.mor.rlx.bin"/></program>
+      <program name="apertium-pretransfer"/>
+      <program name="lt-proc -b"><file name="kpv-udm.autobil.bin"/></program>
+      <program name="lrx-proc -m"><file name="kpv-udm.autolex.bin"/></program>
+      <program name="apertium-transfer -b"><file name="apertium-udm-kpv.kpv-udm.t1x"/><file name="kpv-udm.t1x.bin"/></program>
+      <program name="apertium-interchunk"><file name="apertium-udm-kpv.kpv-udm.t2x"/><file name="kpv-udm.t2x.bin"/></program>
+      <program name="apertium-postchunk"><file name="apertium-udm-kpv.kpv-udm.t3x"/><file name="kpv-udm.t3x.bin"/></program>
       <program name="hfst-proc --weight-classes 1 -d"><file name="kpv-udm.autogen.hfst"/></program>
     </pipeline>
   </mode>
