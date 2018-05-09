@@ -1,7 +1,11 @@
 dist: trusty
 before_install:
     - wget http://apertium.projectjj.com/apt/install-nightly.sh -O - | sudo bash
-    - sudo apt-get install hfst apertium lttoolbox apertium-dev giella-udm giella-kpv
+    - sudo apt-get install hfst apertium lttoolbox apertium-dev giella-core subversion
+    - svn co  https://victorio.uit.no/langtech/trunk/langs/udm
+    - svn co  https://victorio.uit.no/langtech/trunk/langs/kpv
+    - pushd udm && ./autogen.sh && ./configure --enable-apertium && make && sudo make install && popd
+    - pushd kpv && ./autogen.sh && ./configure --enable-apertium && make && sudo make install && popd
 script:
     - ./autogen.sh
     - ./configure
