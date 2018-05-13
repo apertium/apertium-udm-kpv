@@ -96,11 +96,28 @@
       <e><p><l>корка<s n="n"/></l><r>керка<s n="n"/></r></p></e>
       <e><p><l>пуньы<s n="n"/></l><r>пань<s n="n"/></r></p></e>
       <e><p><l>тодыны<s n="vblex"/></l><r>тӧдны<s n="vblex"/></r></p></e>
-      <e><p><l>сое<s n="prn"/></l><r>сійӧ<s n="prn"/></r></p></e>
+      <e><p><l>со<s n="prn"/></l><r>сійӧ<s n="prn"/></r></p></e>
       <e><p><l>но<s n="cnjcoo"/></l><r>и<s n="cnjcoo"/></r></p></e>
       <e><p><l>яратыны<s n="vblex"/></l><r>радейтны<s n="vblex"/></r></p></e>      
       <e><p><l>кызьы<s n="adv"/></l><r>кыдзи<s n="cnjsub"/></r></p></e>
       <e><p><l>улыны<s n="vblex"/></l><r>овны<s n="vblex"/></r></p></e>
+      <e><p><l>асьме<s n="prn"/></l><r>став<s n="prn"/></r></p></e>
+      <e><p><l>вань<s n="prn"/></l><r>став<s n="prn"/></r></p></e>
+      <e><p><l>пиналъёс<s n="n"/></l><r>челядь<s n="n"/></r></p></e>
+      <e><p><l>страна<s n="n"/></l><r>страна<s n="n"/></r></p></e>
+      <e><p><l>Союз<s n="n"/></l><r>Союз<s n="n"/></r></p></e>
+      <e><p><l>сярысь<s n="post"/></l><r>йылысь<s n="post"/></r></p></e>
+      <e><p><l>тушмон<s n="n"/></l><r>враг<s n="n"/></r></p></e>
+      <e><p><l>вормылыны<s n="vblex"/></l><r>вермывлыны<s n="vblex"/></r></p></e>
+      <e><p><l>зӧк<s n="adj"/></l><r>кыз<s n="adj"/></r></p></e>
+      <e><p><l>книга<s n="n"/></l><r>книга<s n="n"/></r></p></e>
+      <e><p><l>торытыны<s n="vblex"/></l><r>тӧрны<s n="vblex"/></r></p></e>
+      <e><p><l>та<s n="prn"/></l><r>тайӧ<s n="prn"/></r></p></e>
+      <e><p><l>ик<s n="pcle"/></l><r>жӧ<s n="pcle"/></r></p></e>
+      <e><p><l>ми<s n="prn"/></l><r>ми<s n="prn"/></r></p></e>
+      <e><p><l>пырыны<s n="vblex"/></l><r>вошны<s n="vblex"/></r></p></e>      
+      <e><p><l>кытчы<s n="adv"/></l><r>кытчӧ<s n="cnjsub"/></r></p></e>
+      <e><p><l>кытысь<s n="adv"/></l><r>кытысь<s n="cnjsub"/></r></p></e>
 
       <e><re>[.\?;:!…¿¶]</re><p><l><s n="sent"/></l><r><s n="sent"/></r></p></e>
       <e><re>,</re>          <p><l><s n="cm"/></l>  <r><s n="cm"/></r></p></e>
