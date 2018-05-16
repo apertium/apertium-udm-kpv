@@ -20,6 +20,8 @@
     <sdef n="ij"              c="Interjection"/>
     <sdef n="adj"             c="Adjective"/>
     <sdef n="prn"             c="Pronoun"/>
+    <sdef n="part"             c="Particle"/>
+    <sdef n="post"             c="Postposition"/>
 
     <sdef n="attr"            c="Attributive"/>
     <sdef n="top"             c="Toponym"/>
@@ -93,32 +95,234 @@
   </sdefs>
 
    <section id="main" type="standard">
+       
+<!-- Section: Particles - Частицы  -->
+       
+      <e><p><l>быттьӧ<s n="part"/></l><r>будто<s n="part"/></r></p></e>
+      <e><p><l>быттьӧкӧ<s n="part"/></l><r>будто<s n="part"/></r></p></e>
+      <e><p><l>быттьӧкӧнӧсь<s n="part"/></l><r>будто<s n="part"/></r></p></e>
+      <e><p><l>вед<s n="part"/></l><r>малай<s n="part"/></r></p></e>
+      <e><p><l>вед<s n="part"/></l><r>эке<s n="part"/></r></p></e>
+      <e><p><l>вед<s n="part"/></l><r>ук<s n="part"/></r></p></e>
+      <e><p><l>вед<s n="part"/></l><r>угось<s n="part"/></r></p></e>
+      <e><p><l>вед<s n="part"/></l><r>уга<s n="part"/></r></p></e>
+      <e><p><l>вед<s n="part"/></l><r>о<s n="part"/></r></p></e>
+      <e><p><l>вед<s n="part"/></l><r>ведь<s n="part"/></r></p></e>
+      <e><p><l>вед<s n="part"/></l><r>ась<s n="part"/></r></p></e>
+      <e><p><l>вед<s n="part"/></l><r>ма<s n="part"/></r></p></e>
+      <e><p><l>весиг<s n="part"/></l><r>даже<s n="part"/></r></p></e>
+      <e><p><l>весиг<s n="part"/></l><r>эсьма<s n="part"/></r></p></e>
+      <e><p><l>весиг<s n="part"/></l><r>эсьмаса<s n="part"/></r></p></e>
+      <e><p><l>весиг<s n="part"/></l><r>эсь<s n="part"/></r></p></e>
+      <e><p><l>весигтӧ<s n="part"/></l><r>даже<s n="part"/></r></p></e>
+      <e><p><l>весигтӧ<s n="part"/></l><r>эсьма<s n="part"/></r></p></e>
+      <e><p><l>весигтӧ<s n="part"/></l><r>эсьмаса<s n="part"/></r></p></e>
+      <e><p><l>весигтӧ<s n="part"/></l><r>эсь<s n="part"/></r></p></e>
+      <e><p><l>вӧлись<s n="part"/></l><r>гинэ<s n="part"/></r></p></e>
+      <e><p><l>вӧлись<s n="part"/></l><r>гынэ<s n="part"/></r></p></e>
+      <e><p><l>вӧлись<s n="part"/></l><r>гынэк<s n="part"/></r></p></e>
+      <e><p><l>вӧлись<s n="part"/></l><r>гинэк<s n="part"/></r></p></e>
+      <e><p><l>выйӧдз<s n="part"/></l><r>даже<s n="part"/></r></p></e>
+      <e><p><l>выйӧдз<s n="part"/></l><r>эсьма<s n="part"/></r></p></e>
+      <e><p><l>выйӧдз<s n="part"/></l><r>эсьмаса<s n="part"/></r></p></e>
+      <e><p><l>выйӧдз<s n="part"/></l><r>эсь<s n="part"/></r></p></e>
+      <e><p><l>вӧд<s n="part"/></l><r>малай<s n="part"/></r></p></e>
+      <e><p><l>вӧд<s n="part"/></l><r>эке<s n="part"/></r></p></e>
+      <e><p><l>вӧд<s n="part"/></l><r>ук<s n="part"/></r></p></e>
+      <e><p><l>вӧд<s n="part"/></l><r>угось<s n="part"/></r></p></e>
+      <e><p><l>вӧд<s n="part"/></l><r>уга<s n="part"/></r></p></e>
+      <e><p><l>вӧд<s n="part"/></l><r>о<s n="part"/></r></p></e>
+      <e><p><l>вӧд<s n="part"/></l><r>ведь<s n="part"/></r></p></e>
+      <e><p><l>вӧд<s n="part"/></l><r>ась<s n="part"/></r></p></e>
+      <e><p><l>вӧд<s n="part"/></l><r>ма<s n="part"/></r></p></e>
+      <e><p><l>да<s n="part"/></l><r>бон<s n="part"/></r></p></e>
+      <e><p><l>да<s n="part"/></l><r>да<s n="part"/></r></p></e>
+      <e><p><l>да<s n="part"/></l><r>я<s n="part"/></r></p></e>
+      <e><p><l>да<s n="part"/></l><r>о-о<s n="part"/></r></p></e>
+      <e><p><l>да<s n="part"/></l><r>мед<s n="part"/></r></p></e>
+      <e><p><l>давай<s n="part"/></l><r>вай<s n="part"/></r></p></e>
+      <e><p><l>жӧ<s n="part"/></l><r>малай<s n="part"/></r></p></e>
+      <e><p><l>жӧ<s n="part"/></l><r>ук<s n="part"/></r></p></e>
+      <e><p><l>жӧ<s n="part"/></l><r>уга<s n="part"/></r></p></e>
+      <e><p><l>жӧ<s n="part"/></l><r>о<s n="part"/></r></p></e>
+      <e><p><l>жӧ<s n="part"/></l><r>эсь<s n="part"/></r></p></e>
+      <e><p><l>жӧ<s n="part"/></l><r>же<s n="part"/></r></p></e>
+      <e><p><l>кӧть<s n="part"/></l><r>бон<s n="part"/></r></p></e>
+      <e><p><l>кӧть<s n="part"/></l><r>коть<s n="part"/></r></p></e>
+      <e><p><l>кӧть<s n="part"/></l><r>хоть<s n="part"/></r></p></e>
+      <e><p><l>куш<s n="part"/></l><r>гинэ<s n="part"/></r></p></e>
+      <e><p><l>куш<s n="part"/></l><r>гынэ<s n="part"/></r></p></e>
+      <e><p><l>куш<s n="part"/></l><r>гынэк<s n="part"/></r></p></e>
+      <e><p><l>куш<s n="part"/></l><r>гинэк<s n="part"/></r></p></e>
+      <e><p><l>ладнӧ<s n="part"/></l><r>яра<s n="part"/></r></p></e>
+      <e><p><l>ладнӧ<s n="part"/></l><r>ярам<s n="part"/></r></p></e>
+      <e><p><l>ладнӧ<s n="part"/></l><r>яралоз<s n="part"/></r></p></e>
+      <e><p><l>ладнӧ<s n="part"/></l><r>ӵок<s n="part"/></r></p></e>
+      <e><p><l>мед<s n="part"/></l><r>кемыз<s n="part"/></r></p></e>
+      <e><p><l>мед<s n="part"/></l><r>мед<s n="part"/></r></p></e>
+      <e><p><l>мед<s n="part"/></l><r>ӵок<s n="part"/></r></p></e>
+      <e><p><l>медлы<s n="part"/></l><r>кемыз<s n="part"/></r></p></e>
+      <e><p><l>медлы<s n="part"/></l><r>мед<s n="part"/></r></p></e>
+      <e><p><l>медлы<s n="part"/></l><r>ӵок<s n="part"/></r></p></e>
+      <e><p><l>медлыты<s n="part"/></l><r>кемыз<s n="part"/></r></p></e>
+      <e><p><l>медлыты<s n="part"/></l><r>мед<s n="part"/></r></p></e>
+      <e><p><l>медлыты<s n="part"/></l><r>ӵок<s n="part"/></r></p></e>
+      <e><p><l>медлытӧ<s n="part"/></l><r>кемыз<s n="part"/></r></p></e>
+      <e><p><l>медлытӧ<s n="part"/></l><r>мед<s n="part"/></r></p></e>
+      <e><p><l>медлытӧ<s n="part"/></l><r>ӵок<s n="part"/></r></p></e>
+      <e><p><l>медым<s n="part"/></l><r>кемыз<s n="part"/></r></p></e>
+      <e><p><l>медым<s n="part"/></l><r>мед<s n="part"/></r></p></e>
+      <e><p><l>медым<s n="part"/></l><r>ӵок<s n="part"/></r></p></e>
+      <e><p><l>неужели<s n="part"/></l><r>неужели<s n="part"/></r></p></e>
+      <e><p><l>неужели<s n="part"/></l><r>неужто<s n="part"/></r></p></e>
+      <e><p><l>нӧ<s n="part"/></l><r>малай<s n="part"/></r></p></e>
+      <e><p><l>нӧ<s n="part"/></l><r>ук<s n="part"/></r></p></e>
+      <e><p><l>нӧ<s n="part"/></l><r>уга<s n="part"/></r></p></e>
+      <e><p><l>нӧ<s n="part"/></l><r>о<s n="part"/></r></p></e>
+      <e><p><l>нӧ<s n="part"/></l><r>эсь<s n="part"/></r></p></e>
+      <e><p><l>нӧ<s n="part"/></l><r>же<s n="part"/></r></p></e>
+      <e><p><l>пӧжалуй<s n="part"/></l><r>дыр<s n="part"/></r></p></e>
+      <e><p><l>пӧжалуй<s n="part"/></l><r>вылды<s n="part"/></r></p></e>
+      <e><p><l>пӧжалуйста<s n="part"/></l><r>пожалуйста<s n="part"/></r></p></e>
+      <e><p><l>пӧжалуйста<s n="part"/></l><r>тауна<s n="part"/></r></p></e>
+      <e><p><l>тожӧ<s n="part"/></l><r>тоже<s n="part"/></r></p></e>
+      <e><p><l>тожӧ<s n="part"/></l><r>тожо<s n="part"/></r></p></e>
+      <e><p><l>толькӧ<s n="part"/></l><r>гинэ<s n="part"/></r></p></e>
+      <e><p><l>толькӧ<s n="part"/></l><r>гынэ<s n="part"/></r></p></e>
+      <e><p><l>толькӧ<s n="part"/></l><r>гынэк<s n="part"/></r></p></e>
+      <e><p><l>толькӧ<s n="part"/></l><r>гинэк<s n="part"/></r></p></e>
+      <e><p><l>тонӧ<s n="part"/></l><r>тӥни<s n="part"/></r></p></e>
+      <e><p><l>тонӧ<s n="part"/></l><r>тэнь<s n="part"/></r></p></e>
+      <e><p><l>тонӧ<s n="part"/></l><r>во<s n="part"/></r></p></e>
+      <e><p><l>чӧвлы<s n="part"/></l><r>погоди<s n="part"/></r></p></e>
+      <e><p><l>энлыв<s n="part"/></l><r>погоди<s n="part"/></r></p></e>
+      <e><p><l>эськӧ<s n="part"/></l><r>бы<s n="part"/></r></p></e>
+      <e><p><l>эськӧн<s n="part"/></l><r>бы<s n="part"/></r></p></e>
+      <e><p><l>ӧд<s n="part"/></l><r>малай<s n="part"/></r></p></e>
+      <e><p><l>ӧд<s n="part"/></l><r>эке<s n="part"/></r></p></e>
+      <e><p><l>ӧд<s n="part"/></l><r>ук<s n="part"/></r></p></e>
+      <e><p><l>ӧд<s n="part"/></l><r>угось<s n="part"/></r></p></e>
+      <e><p><l>ӧд<s n="part"/></l><r>уга<s n="part"/></r></p></e>
+      <e><p><l>ӧд<s n="part"/></l><r>о<s n="part"/></r></p></e>
+      <e><p><l>ӧд<s n="part"/></l><r>ведь<s n="part"/></r></p></e>
+      <e><p><l>ӧд<s n="part"/></l><r>ась<s n="part"/></r></p></e>
+      <e><p><l>ӧд<s n="part"/></l><r>ма<s n="part"/></r></p></e>
+      <e><p><l>ӧмӧй<s n="part"/></l><r>ма<s n="part"/></r></p></e>
+      <e><p><l>сідзи<s n="part"/></l><r>озьы<s n="part"/></r></p></e>
+      <e><p><l>сідзи<s n="part"/></l><r>созьы<s n="part"/></r></p></e>
+      <e><p><l>сідзи<s n="part"/></l><r>озь<s n="part"/></r></p></e>
+      <e><p><l>сідзи<s n="part"/></l><r>созь<s n="part"/></r></p></e>
+      <e><p><l>сідзи<s n="part"/></l><r>тазьы<s n="part"/></r></p></e>
+      <e><p><l>сідзи<s n="part"/></l><r>тазь<s n="part"/></r></p></e>
+      <e><p><l>сідзи<s n="part"/></l><r>дак<s n="part"/></r></p></e>
+      <e><p><l>тадзи<s n="part"/></l><r>озьы<s n="part"/></r></p></e>
+      <e><p><l>тадзи<s n="part"/></l><r>созьы<s n="part"/></r></p></e>
+      <e><p><l>тадзи<s n="part"/></l><r>озь<s n="part"/></r></p></e>
+      <e><p><l>тадзи<s n="part"/></l><r>созь<s n="part"/></r></p></e>
+      <e><p><l>тадзи<s n="part"/></l><r>тазьы<s n="part"/></r></p></e>
+      <e><p><l>тадзи<s n="part"/></l><r>тазь<s n="part"/></r></p></e>
+      <e><p><l>тадзи<s n="part"/></l><r>дак<s n="part"/></r></p></e>
+      <e><p><l>выйӧдзтӧ<s n="part"/></l><r>даже<s n="part"/></r></p></e>
+      <e><p><l>выйӧдзтӧ<s n="part"/></l><r>эсьма<s n="part"/></r></p></e>
+      <e><p><l>выйӧдзтӧ<s n="part"/></l><r>эсьмаса<s n="part"/></r></p></e>
+      <e><p><l>выйӧдзтӧ<s n="part"/></l><r>эсь<s n="part"/></r></p></e>
+      <e><p><l>выя<s n="part"/></l><r>даже<s n="part"/></r></p></e>
+      <e><p><l>выя<s n="part"/></l><r>эсьма<s n="part"/></r></p></e>
+      <e><p><l>выя<s n="part"/></l><r>эсьмаса<s n="part"/></r></p></e>
+      <e><p><l>выя<s n="part"/></l><r>эсь<s n="part"/></r></p></e>
+      <e><p><l>вӧлисти<s n="part"/></l><r>гинэ<s n="part"/></r></p></e>
+      <e><p><l>вӧлисти<s n="part"/></l><r>гынэ<s n="part"/></r></p></e>
+      <e><p><l>вӧлисти<s n="part"/></l><r>гынэк<s n="part"/></r></p></e>
+      <e><p><l>вӧлисти<s n="part"/></l><r>гинэк<s n="part"/></r></p></e>
+      <e><p><l>мыйся<s n="part"/></l><r>что<s n="part"/></r></p></e>
+      <e><p><l>налӧй<s n="part"/></l><r>ме<s n="part"/></r></p></e>
+      <e><p><l>ик<s n="part"/></l><r>жӧ<s n="part"/></r></p></e>
+      
+<!-- Section: Co-ordinating conjunctions - Сочинительные союзы - -->
+      
+      <e><p><l>и<s n="cnjcoo"/></l><r>и<s n="cnjcoo"/></r></p></e>
+      <e><p><l>али<s n="cnjcoo"/></l><r>оло<s n="cnjcoo"/></r></p></e>
+      <e><p><l>али<s n="cnjcoo"/></l><r>яке<s n="cnjcoo"/></r></p></e>
+      <e><p><l>али<s n="cnjcoo"/></l><r>алай<s n="cnjcoo"/></r></p></e>
+      <e><p><l>либӧ<s n="cnjcoo"/></l><r>оло<s n="cnjcoo"/></r></p></e>
+      <e><p><l>либӧ<s n="cnjcoo"/></l><r>яке<s n="cnjcoo"/></r></p></e>
+      <e><p><l>либӧ<s n="cnjcoo"/></l><r>алай<s n="cnjcoo"/></r></p></e>
+      <e><p><l>либӧнӧсь<s n="cnjcoo"/></l><r>оло<s n="cnjcoo"/></r></p></e>
+      <e><p><l>либӧнӧсь<s n="cnjcoo"/></l><r>яке<s n="cnjcoo"/></r></p></e>
+      <e><p><l>либӧнӧсь<s n="cnjcoo"/></l><r>алай<s n="cnjcoo"/></r></p></e>
+      <e><p><l>а<s n="cnjcoo"/></l><r>а<s n="cnjcoo"/></r></p></e>
+      <e><p><l>а<s n="cnjcoo"/></l><r>нош<s n="cnjcoo"/></r></p></e>
+      <e><p><l>но<s n="cnjcoo"/></l><r>и<s n="cnjcoo"/></r></p></e>
+      
+<!-- Section: Sub-ordinating conjunctions - Подчинительные союзы - -->
+      
+      <e><p><l>кӧ<s n="cnjsub"/></l><r>раз<s n="cnjsub"/></r></p></e>
+      <e><p><l>кӧ<s n="cnjsub"/></l><r>агар<s n="cnjsub"/></r></p></e>
+      <e><p><l>кӧ<s n="cnjsub"/></l><r>ке<s n="cnjsub"/></r></p></e>
+      <e><p><l>кӧ<s n="cnjsub"/></l><r>если<s n="cnjsub"/></r></p></e>
+      <e><p><l>кытчы<s n="adv"/></l><r>кытчӧ<s n="cnjsub"/></r></p></e>
+      <e><p><l>кытысь<s n="adv"/></l><r>кытысь<s n="cnjsub"/></r></p></e>
+      <e><p><l>кызьы<s n="adv"/></l><r>кыдзи<s n="cnjsub"/></r></p></e>
+      
+<!-- Section: Postpositions - Послелоги -->
+      
+      <e><p><l>дінӧд<s n="post"/></l><r>ёрсытӥ<s n="post"/></r></p></e>
+      <e><p><l>дінӧд<s n="post"/></l><r>ёрсын<s n="post"/></r></p></e>
+      <e><p><l>дінӧд<s n="post"/></l><r>палан<s n="post"/></r></p></e>
+      <e><p><l>дінӧд<s n="post"/></l><r>палтӥ<s n="post"/></r></p></e>
+      <e><p><l>мында<s n="post"/></l><r>ёрсытӥ<s n="post"/></r></p></e>
+      <e><p><l>мында<s n="post"/></l><r>ёрсын<s n="post"/></r></p></e>
+      <e><p><l>мында<s n="post"/></l><r>палан<s n="post"/></r></p></e>
+      <e><p><l>мында<s n="post"/></l><r>палтӥ<s n="post"/></r></p></e>
+      <e><p><l>мысти<s n="post"/></l><r>пӧрат<s n="post"/></r></p></e>
+      <e><p><l>мысти<s n="post"/></l><r>пыртӥ<s n="post"/></r></p></e>
+      <e><p><l>йылӧ<s n="post"/></l><r>пумозь<s n="post"/></r></p></e>
+      <e><p><l>йылӧ<s n="post"/></l><r>быдэ<s n="post"/></r></p></e>
+      <e><p><l>йылӧ<s n="post"/></l><r>палан<s n="post"/></r></p></e>
+      <e><p><l>йылӧдз<s n="post"/></l><r>луытозь<s n="post"/></r></p></e>
+      <e><p><l>йылӧдз<s n="post"/></l><r>пумозь<s n="post"/></r></p></e>
+      <e><p><l>йылӧдз<s n="post"/></l><r>калэ<s n="post"/></r></p></e>
+      <e><p><l>выйысь<s n="post"/></l><r>ӵоже<s n="post"/></r></p></e>
+      <e><p><l>выяысь<s n="post"/></l><r>ӵоже<s n="post"/></r></p></e>
+      <e><p><l>сярысь<s n="post"/></l><r>йылысь<s n="post"/></r></p></e>
+      
+<!-- SECTION: Nouns - Существительные -->
+       
       <e><p><l>корка<s n="n"/></l><r>керка<s n="n"/></r></p></e>
       <e><p><l>пуньы<s n="n"/></l><r>пань<s n="n"/></r></p></e>
-      <e><p><l>тодыны<s n="vblex"/></l><r>тӧдны<s n="vblex"/></r></p></e>
-      <e><p><l>со<s n="prn"/></l><r>сійӧ<s n="prn"/></r></p></e>
-      <e><p><l>но<s n="cnjcoo"/></l><r>и<s n="cnjcoo"/></r></p></e>
-      <e><p><l>яратыны<s n="vblex"/></l><r>радейтны<s n="vblex"/></r></p></e>      
-      <e><p><l>кызьы<s n="adv"/></l><r>кыдзи<s n="cnjsub"/></r></p></e>
-      <e><p><l>улыны<s n="vblex"/></l><r>овны<s n="vblex"/></r></p></e>
-      <e><p><l>асьме<s n="prn"/></l><r>став<s n="prn"/></r></p></e>
-      <e><p><l>вань<s n="prn"/></l><r>став<s n="prn"/></r></p></e>
       <e><p><l>пиналъёс<s n="n"/></l><r>челядь<s n="n"/></r></p></e>
       <e><p><l>страна<s n="n"/></l><r>страна<s n="n"/></r></p></e>
       <e><p><l>Союз<s n="n"/></l><r>Союз<s n="n"/></r></p></e>
-      <e><p><l>сярысь<s n="post"/></l><r>йылысь<s n="post"/></r></p></e>
       <e><p><l>тушмон<s n="n"/></l><r>враг<s n="n"/></r></p></e>
-      <e><p><l>вормылыны<s n="vblex"/></l><r>вермывлыны<s n="vblex"/></r></p></e>
-      <e><p><l>зӧк<s n="adj"/></l><r>кыз<s n="adj"/></r></p></e>
       <e><p><l>книга<s n="n"/></l><r>книга<s n="n"/></r></p></e>
-      <e><p><l>торытыны<s n="vblex"/></l><r>тӧрны<s n="vblex"/></r></p></e>
-      <e><p><l>та<s n="prn"/></l><r>тайӧ<s n="prn"/></r></p></e>
-      <e><p><l>ик<s n="pcle"/></l><r>жӧ<s n="pcle"/></r></p></e>
-      <e><p><l>ми<s n="prn"/></l><r>ми<s n="prn"/></r></p></e>
-      <e><p><l>пырыны<s n="vblex"/></l><r>вошны<s n="vblex"/></r></p></e>      
-      <e><p><l>кытчы<s n="adv"/></l><r>кытчӧ<s n="cnjsub"/></r></p></e>
-      <e><p><l>кытысь<s n="adv"/></l><r>кытысь<s n="cnjsub"/></r></p></e>
 
+<!-- SECTION: Adjectives - Прилагательные -->
+      
+      <e><p><l>зӧк<s n="adj"/></l><r>кыз<s n="adj"/></r></p></e>
+      
+<!-- SECTION: Verbs - Глаголы -->
+      
+      <e><p><l>тодыны<s n="vblex"/></l><r>тӧдны<s n="vblex"/></r></p></e>
+      <e><p><l>пырыны<s n="vblex"/></l><r>вошны<s n="vblex"/></r></p></e>   
+      <e><p><l>яратыны<s n="vblex"/></l><r>радейтны<s n="vblex"/></r></p></e>   
+      <e><p><l>торытыны<s n="vblex"/></l><r>тӧрны<s n="vblex"/></r></p></e>
+      <e><p><l>вормылыны<s n="vblex"/></l><r>вермывлыны<s n="vblex"/></r></p></e>
+      <e><p><l>улыны<s n="vblex"/></l><r>овны<s n="vblex"/></r></p></e>
+      
+<!-- Personal pronouns - Личные местоимения -->
+      
+      <e><p><l>со<s n="prn"/></l><r>сійӧ<s n="prn"/></r></p></e>
+      <e><p><l>ми<s n="prn"/></l><r>ми<s n="prn"/></r></p></e>
+      
+<!-- Demonstrative pronouns - Указательные местоимения -->
+      
+      <e><p><l>та<s n="prn"/></l><r>тайӧ<s n="prn"/></r></p></e>
+      
+<!-- Indefinite pronouns - Неопределенные местоимения -->
+      
+      <e><p><l>асьме<s n="prn"/></l><r>став<s n="prn"/></r></p></e>
+      <e><p><l>вань<s n="prn"/></l><r>став<s n="prn"/></r></p></e>
+    
       <e><re>[.\?;:!…¿¶]</re><p><l><s n="sent"/></l><r><s n="sent"/></r></p></e>
       <e><re>,</re>          <p><l><s n="cm"/></l>  <r><s n="cm"/></r></p></e>
    </section>
