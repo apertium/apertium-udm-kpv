@@ -1,3 +1,7 @@
+dist: trusty
+language: generic
+python:
+    - "3.6"
 before_install:
     - wget http://apertium.projectjj.com/apt/install-nightly.sh -O - | sudo bash
     - sudo apt-get install hfst apertium lttoolbox apertium-dev giella-core giella-common giella-shared subversion cg3
