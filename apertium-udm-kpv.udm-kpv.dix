@@ -138,7 +138,6 @@
       <e><p><l>бон<s n="part"/></l><r>да<s n="part"/></r></p></e>
       <e><p><l>да<s n="part"/></l><r>да<s n="part"/></r></p></e>
       <e><p><l>я<s n="part"/></l><r>да<s n="part"/></r></p></e>
-      <e><p><l>о-о<s n="part"/></l><r>да<s n="part"/></r></p></e>
       <e><p><l>мед<s n="part"/></l><r>да<s n="part"/></r></p></e>
       <e><p><l>вай<s n="part"/></l><r>давай<s n="part"/></r></p></e>
       <e><p><l>малай<s n="part"/></l><r>жӧ<s n="part"/></r></p></e>
@@ -2570,6 +2569,10 @@
       
       <e><p><l>со<s n="prn"/></l><r>сійӧ<s n="prn"/></r></p></e>
       <e><p><l>ми<s n="prn"/></l><r>ми<s n="prn"/></r></p></e>
+      <e><p><l>мон<s n="prn"/></l><r>ме<s n="prn"/></r></p></e>
+      <e><p><l>тон<s n="prn"/></l><r>тэ<s n="prn"/></r></p></e>
+      <e><p><l>тӥ<s n="prn"/></l><r>ті<s n="prn"/></r></p></e>
+      <e><p><l>соос<s n="prn"/></l><r>найӧ<s n="prn"/></r></p></e>
       
 <!-- Demonstrative pronouns - Указательные местоимения -->
       
@@ -2579,6 +2582,23 @@
       
       <e><p><l>асьме<s n="prn"/></l><r>став<s n="prn"/></r></p></e>
       <e><p><l>вань<s n="prn"/></l><r>став<s n="prn"/></r></p></e>
+      <e><p><l>кин<s n="prn"/></l><r>код<s n="prn"/></r></p></e>
+      <e><p><l>нокин<s n="prn"/></l><r>некод<s n="prn"/></r></p></e>
+      <e><p><l>некин<s n="prn"/></l><r>некод<s n="prn"/></r></p></e>
+      <e><p><l>ненокин<s n="prn"/></l><r>некод<s n="prn"/></r></p></e>
+      <e><p><l>номыре<s n="prn"/></l><r>нинӧм<s n="prn"/></r></p></e>
+      <e><p><l>вань<s n="prn"/></l><r>став<s n="prn"/></r></p></e>
+      <e><p><l>ас<s n="prn"/></l><r>ас<s n="prn"/></r></p></e>
+      <e><p><l>ог-огзы<s n="prn"/></l><r>ӧта-мӧд<s n="prn"/></r></p></e>
+      <e><p><l>ог-огзы<s n="prn"/></l><r>мӧда-мӧд<s n="prn"/></r></p></e>
+      <e><p><l>кин<s n="prn"/></l><r>кин<s n="prn"/></r></p></e>
+      <e><p><l>марке<s n="prn"/></l><r>мыйя<s n="prn"/></r></p></e>
+      <e><p><l>маке<s n="prn"/></l><r>мыйя<s n="prn"/></r></p></e>
+      <e><p><l>оломар<s n="prn"/></l><r>мыйя<s n="prn"/></r></p></e>
+      <e><p><l>олома<s n="prn"/></l><r>мыйя<s n="prn"/></r></p></e>
+      <e><p><l>нокин<s n="prn"/></l><r>некин<s n="prn"/></r></p></e>
+      <e><p><l>некин<s n="prn"/></l><r>некин<s n="prn"/></r></p></e>
+      <e><p><l>ненокин<s n="prn"/></l><r>некин<s n="prn"/></r></p></e>
     
       <e><re>[.\?;:!…¿¶]</re><p><l><s n="sent"/></l><r><s n="sent"/></r></p></e>
       <e><re>,</re>          <p><l><s n="cm"/></l>  <r><s n="cm"/></r></p></e>
