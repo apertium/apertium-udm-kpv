@@ -112,17 +112,17 @@ $(PREFIX1).autogen.hfst: $(AP_SRC2)/apertium-$(LANG2).$(LANG2).RL.att.gz
 ## Disambiguation rules
 ###############################################################################
 
-$(PREFIX1).mor.rlx.bin: $(AP_SRC1)/$(LANG1).mor.rlx.bin 
+$(PREFIX1).mor.rlx.bin: $(AP_SRC1)/$(LANG1).mor.rlx.bin
 	cp $< $@
 
-$(PREFIX1).syn.rlx.bin: $(AP_SRC1)/$(LANG1).syn.rlx.bin 
+$(PREFIX1).syn.rlx.bin: $(AP_SRC1)/$(LANG1).syn.rlx.bin
 	cp $< $@
 
 
-$(PREFIX2).mor.rlx.bin: $(AP_SRC2)/$(LANG2).mor.rlx.bin 
+$(PREFIX2).mor.rlx.bin: $(AP_SRC2)/$(LANG2).mor.rlx.bin
 	cp $< $@
 
-$(PREFIX2).syn.rlx.bin: $(AP_SRC2)/$(LANG2).syn.rlx.bin 
+$(PREFIX2).syn.rlx.bin: $(AP_SRC2)/$(LANG2).syn.rlx.bin
 	cp $< $@
 
 ###############################################################################
@@ -249,3 +249,42 @@ test: all test-install
 	@echo "Liege buorre" > .test-ref
 	@diff .test-ref .test-mt
 	@rm .test-ref .test-mt
+
+
+if CAN_SAXON
+bidix2html.xslt:
+	wget https://raw.githubusercontent.com/flammie/apevis-xslt/$@
+
+tix2html.xslt:
+	wget https://raw.githubusercontent.com/flammie/apevis-xslt/$@
+
+dix2stats.xslt:
+	wget https://raw.githubusercontent.com/flammie/apevis-xslt/$@
+
+$(BASENAME).$(PREFIX1).dix.html: $(BASENAME).$(PREFIX1).dix bidix2html.xslt
+	$(SAXON) -s:$< bidix2html.xslt from=Udmurt to=Komi pair=udm-kpv antipair=kpv-udm > $@
+
+$(BASENAME).$(PREFIX2).dix.html: $(BASENAME).$(PREFIX1).dix bidix2html.xslt
+	$(SAXON) -s:$< bidix2html.xslt from=Komi to=Udmurt pair=udm-kpv antipair=kpv-udm  invert=true > $@
+
+$(BASENAME).$(PREFIX1).t1x.html: $(BASENAME).$(PREFIX1).t1x tix2html.xsl
+	$(SAXON) -s:$< tix2html.xsl from=Udmurt to=Komi pair=udm-kpv antipair=kpv-udm  > $@
+
+$(BASENAME).$(PREFIX2).t1x.html: $(BASENAME).$(PREFIX2).t1x tix2html.xsl
+	$(SAXON) -s:$< tix2html.xsl from=Udmurt to=Komi pair=udm-kpv antipair=kpv-udm  > $@
+
+$(BASENAME).$(PREFIX1).t2x.html: $(BASENAME).$(PREFIX1).t2x tix2html.xsl
+	$(SAXON) -s:$< tix2html.xsl from=Udmurt to=Komi pair=udm-kpv antipair=kpv-udm  > $@
+
+$(BASENAME).$(PREFIX2).t2x.html: $(BASENAME).$(PREFIX2).t2x tix2html.xsl
+	$(SAXON) -s:$< tix2html.xsl  from=Udmurt to=Komi pair=udm-kpv antipair=kpv-udm  > $@
+
+$(BASENAME).$(PREFIX1).t3x.html: $(BASENAME).$(PREFIX1).t3x tix2html.xsl
+	$(SAXON) -s:$< tix2html.xsl  from=Udmurt to=Komi pair=udm-kpv antipair=kpv-udm  > $@
+
+$(BASENAME).$(PREFIX2).t3x.html: $(BASENAME).$(PREFIX2).t3x tix2html.xsl
+	$(SAXON) -s:$< tix2html.xsl  from=Udmurt to=Komi pair=udm-kpv antipair=kpv-udm  > $@
+
+
+
+endif

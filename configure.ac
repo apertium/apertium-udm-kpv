@@ -43,6 +43,9 @@ m4_ifdef([AP_CHECK_LING],[],[AC_MSG_ERROR([AP_CHECK_LING not defined, is apertiu
 AP_CHECK_LING([1], [giella-udm])
 AP_CHECK_LING([2], [giella-kpv])
 
+AC_PATH_PROGS([SAXON], [saxon9-transform], [false])
+AM_CONDITIONAL([CAN_SAXON], [test x$SAXON != xfalse])
+
 AP_MKINCLUDE
 
 AC_OUTPUT([Makefile])
