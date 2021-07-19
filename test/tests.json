@@ -1,0 +1,6 @@
+{
+    "udm-kpv": {
+        "input": "udm-kpv-input.txt",
+        "mode": "udm-kpv"
+    }
+}
