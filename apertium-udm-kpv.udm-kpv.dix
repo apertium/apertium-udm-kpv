@@ -21,6 +21,7 @@
     <sdef n="adj"             c="Adjective"/>
     <sdef n="prn"             c="Pronoun"/>
     <sdef n="part"             c="Particle"/>
+    <sdef n="pcle"             c="Particle"/>
     <sdef n="post"             c="Postposition"/>
 
     <sdef n="attr"            c="Attributive"/>
@@ -4478,7 +4479,8 @@
       <e><p><l>пиджак<s n="n"/></l><r>пинжак<s n="n"/></r></p></e>
       <e><p><l>беризь<s n="n"/></l><r>липа<s n="n"/></r></p></e>
       <e><p><l>турист<s n="n"/></l><r>турист<s n="n"/></r></p></e>
-      <e><p><l>пися<s n="n"/></l><r>пон<s n="n"/></r></p></e>
+      <e><p><l>пуны<s n="n"/></l><r>пон<s n="n"/></r></p></e>
+      <e r="LR"><p><l>пися<s n="n"/></l><r>пон<s n="n"/></r></p></e>
       <e><p><l>реклама<s n="n"/></l><r>реклама<s n="n"/></r></p></e>
       <e><p><l>барыш<s n="n"/></l><r>барыш<s n="n"/></r></p></e>
       <e><p><l>пайда<s n="n"/></l><r>барыш<s n="n"/></r></p></e>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <modes>
-  <!-- udm→udm direction: -->
+  <!-- udm→kpv direction: -->
   <mode name="udm-kpv" install="yes">
     <pipeline>
       <program name="hfst-proc --weight-classes 1 -w -e"><file name="udm-kpv.automorf.hfst"/></program>
@@ -108,7 +108,7 @@
       <program name="hfst-proc --weight-classes 1 -d"><file name="udm-kpv.autogen.hfst"/></program>
     </pipeline>
   </mode>
-  <!-- udm→udm direction: -->
+  <!-- kpv→udm direction: -->
 <mode name="kpv-udm" install="yes">
     <pipeline>
       <program name="hfst-proc --weight-classes 1 -w -e"><file name="kpv-udm.automorf.hfst"/></program>
