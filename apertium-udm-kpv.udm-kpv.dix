@@ -298,25 +298,25 @@
       
 <!-- Section: Postpositions - Послелоги -->
       
-      <e><p><l>дінӧд<s n="post"/></l><r>ёрсытӥ<s n="post"/></r></p></e>
-      <e><p><l>дінӧд<s n="post"/></l><r>ёрсын<s n="post"/></r></p></e>
-      <e><p><l>дінӧд<s n="post"/></l><r>палан<s n="post"/></r></p></e>
-      <e><p><l>дінӧд<s n="post"/></l><r>палтӥ<s n="post"/></r></p></e>
-      <e><p><l>мында<s n="post"/></l><r>ёрсытӥ<s n="post"/></r></p></e>
-      <e><p><l>мында<s n="post"/></l><r>ёрсын<s n="post"/></r></p></e>
-      <e><p><l>мында<s n="post"/></l><r>палан<s n="post"/></r></p></e>
-      <e><p><l>мында<s n="post"/></l><r>палтӥ<s n="post"/></r></p></e>
-      <e><p><l>мысти<s n="post"/></l><r>пӧрат<s n="post"/></r></p></e>
-      <e><p><l>мысти<s n="post"/></l><r>пыртӥ<s n="post"/></r></p></e>
-      <e><p><l>йылӧ<s n="post"/></l><r>пумозь<s n="post"/></r></p></e>
-      <e><p><l>йылӧ<s n="post"/></l><r>быдэ<s n="post"/></r></p></e>
-      <e><p><l>йылӧ<s n="post"/></l><r>палан<s n="post"/></r></p></e>
-      <e><p><l>йылӧдз<s n="post"/></l><r>луытозь<s n="post"/></r></p></e>
-      <e><p><l>йылӧдз<s n="post"/></l><r>пумозь<s n="post"/></r></p></e>
-      <e><p><l>йылӧдз<s n="post"/></l><r>калэ<s n="post"/></r></p></e>
-      <e><p><l>выйысь<s n="post"/></l><r>ӵоже<s n="post"/></r></p></e>
-      <e><p><l>выяысь<s n="post"/></l><r>ӵоже<s n="post"/></r></p></e>
+      <e><p><l>быдэ<s n="post"/></l><r>йылӧ<s n="post"/></r></p></e>
+      <e><p><l>ёрсытӥ<s n="post"/></l><r>дінӧд<s n="post"/></r></p></e>
+      <e><p><l>ёрсын<s n="post"/></l><r>дінӧд<s n="post"/></r></p></e>
+      <e><p><l>ёрсытӥ<s n="post"/></l><r>мында<s n="post"/></r></p></e>
+      <e><p><l>ёрсын<s n="post"/></l><r>мында<s n="post"/></r></p></e>
+      <e><p><l>калэ<s n="post"/></l><r>йылӧдз<s n="post"/></r></p></e>
+      <e><p><l>луытозь<s n="post"/></l><r>йылӧдз<s n="post"/></r></p></e>
+      <e><p><l>палан<s n="post"/></l><r>дінӧд<s n="post"/></r></p></e>
+      <e><p><l>палан<s n="post"/></l><r>йылӧ<s n="post"/></r></p></e>
+      <e><p><l>палан<s n="post"/></l><r>мында<s n="post"/></r></p></e>
+      <e><p><l>палтӥ<s n="post"/></l><r>дінӧд<s n="post"/></r></p></e>
+      <e><p><l>палтӥ<s n="post"/></l><r>мында<s n="post"/></r></p></e>
+      <e><p><l>пӧрат<s n="post"/></l><r>мысти<s n="post"/></r></p></e>
+      <e><p><l>пумозь<s n="post"/></l><r>йылӧдз<s n="post"/></r></p></e>
+      <e><p><l>пумозь<s n="post"/></l><r>йылӧ<s n="post"/></r></p></e>
+      <e><p><l>пыртӥ<s n="post"/></l><r>мысти<s n="post"/></r></p></e>
       <e><p><l>сярысь<s n="post"/></l><r>йылысь<s n="post"/></r></p></e>
+      <e><p><l>ӵоже<s n="post"/></l><r>выйысь<s n="post"/></r></p></e>
+      <e><p><l>ӵоже<s n="post"/></l><r>выяысь<s n="post"/></r></p></e>
       
 <!-- SECTION: Personal Nouns - Имена собственные -->
       
